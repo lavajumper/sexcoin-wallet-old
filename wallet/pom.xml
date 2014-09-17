@@ -7,14 +7,19 @@
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
 	<version>3.30.8</version>
-	<name>Litecoin Wallet</name>
+	<name>Sexcoin Wallet</name>
 
 	<parent>
 		<groupId>de.schildbach.wallet</groupId>
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
-
+	<properties>
+		<sign.keystore>c:\\users\\root\\.android\\debug.keystore</sign.keystore>
+		<sign.alias>androiddebugkey</sign.alias>
+		<sign.storepass>android</sign.storepass>
+		<sign.keypass>android</sign.keypass>
+	</properties>
 	<dependencies>
 
 		<!-- android.*, java.*, javax.* -->
@@ -190,7 +195,7 @@
                             <storepass>${sign.storepass}</storepass>
                             <keypass>${sign.keypass}</keypass>
                             <verbose>true</verbose>
-                            <alias>litecoin-project</alias>
+                            <!-- <alias>litecoin-project</alias> -->
                             <arguments>
                                 <argument>-sigalg</argument><argument>MD5withRSA</argument>
                                 <argument>-digestalg</argument><argument>SHA1</argument>

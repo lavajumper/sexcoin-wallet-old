@@ -3,11 +3,11 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			The upper left part of the screen displays your selected Litecoin address that other people need to know in order to send you Litecoins.
+			The upper left part of the screen displays your selected Sexcoin address that other people need to know in order to send you Sexcoins.
 			Tap to change the address.
 		</p>
 		<p>
-			The QR code on the right contains your litecoin address and can be used for scanning by another party.
+			The QR code on the right contains your sexcoin address and can be used for scanning by another party.
 			Tap on the QR code to get a larger version of it.
 		</p>
 		<p>
@@ -30,15 +30,15 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Using this dialog, you can request coins from another person (who should already have installed Litecoin Wallet).
+			Using this dialog, you can request coins from another person (who should already have installed Sexcoin Wallet).
 		</p>
 		<p>
-			First, you can enter an amount of Litecoins to request.
+			First, you can enter an amount of Sexcoins to request.
 		</p>
 		<p>
 			Then, you either have the generated QR code scanned by the other person.
 			Or, you can send your request to a remote person with the share button in the action bar.
-			The other person will have to click the Litecoin URL.
+			The other person will have to click the Sexcoin URL.
 		</p>
 		<p>
 			Either way, the other person will be presented a dialog for sending coins with all fields pre-populated.
@@ -50,15 +50,15 @@
 <![CDATA[
 		<p>
 			You have initiated the process of sending coins.
-			You came here either through the main screen or by clicking on a Litecoin URL in your mobile browser.
+			You came here either through the main screen or by clicking on a Sexcoin URL in your mobile browser.
 		</p>
 		<p>
-			First, you enter the Litecoin address to pay to.
+			First, you enter the Sexcoin address to pay to.
 			The address will autocomplete from known entries in your address book.
-			You can also scan QR codes with Litecoin addresses or Litecoin requests by pressing the QR button in the action bar.
+			You can also scan QR codes with Sexcoin addresses or Sexcoin requests by pressing the QR button in the action bar.
 		</p>
 		<p>
-			Next, you can see how many Litecoins you can spend at the moment.
+			Next, you can see how many Sexcoins you can spend at the moment.
 			Any difference to the balance from the main screen is still unconfirmed and can thus not yet be spent.
 		</p>
 		<p>
@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			You can enter a payment while being offline.
-			It will be sent on next restart of Litecoin Wallet.
+			It will be sent on next restart of Sexcoin Wallet.
 			If you want a payment to be processed as fast as possible, make sure you are well connected (i.e. on a WLAN).
 		</p>
 		<p>
@@ -80,8 +80,8 @@
 <![CDATA[
         <p><b>Important safety notes:</b></p>
         <p>
-            Litecoins are stored on the device.
-            <b>If you lose it, you\'ll lose your Litecoins.</b>
+            Sexcoins are stored on the device.
+            <b>If you lose it, you\'ll lose your Sexcoins.</b>
         </p>
         <p>
             This means you need to <b>back up your wallet</b>!
@@ -89,12 +89,12 @@
             Keep your backup safe and remember the password.
         </p>
         <p>
-            <b>Before uninstalling</b> (or clearing app data/wiping your device), <b>transfer your Litecoins to another wallet</b>.
-            Remaining Litecoins will be lost.
+            <b>Before uninstalling</b> (or clearing app data/wiping your device), <b>transfer your Sexcoins to another wallet</b>.
+            Remaining Sexcoins will be lost.
         </p>
         <p>
             <b>Payments are irreversible</b>.
-            If you send your Litecoins into the void, there is almost no way to get them back.
+            If you send your Sexcoins into the void, there is almost no way to get them back.
         </p>
         <p>
             <b>Keep your mobile device safe!</b>
@@ -107,7 +107,7 @@
             <b>Only use with small amounts</b> for day use.
         </p>
         <p><b>DISCLAIMER OF WARRANTY</b></p>
-        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Bitcoin) is experimental software with source fully available to the public.</p>
+        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Sexcoin (like Bitcoin) is experimental software with source fully available to the public.</p>
         <span style=\"font-family: monospace\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

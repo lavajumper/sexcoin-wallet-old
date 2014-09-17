@@ -73,7 +73,7 @@
 			<intent-filter>
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:mimeType="application/x-ltctx" />
+				<data android:mimeType="application/x-sxctx" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
@@ -181,7 +181,7 @@
 
 		<receiver
 			android:name="de.schildbach.wallet.WalletBalanceWidgetProvider"
-			android:label="Litecoin Wallet Balance" >
+			android:label="Sexcoin Wallet Balance" >
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>

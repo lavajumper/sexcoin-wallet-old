@@ -37,6 +37,7 @@ import android.util.Log;
 import de.schildbach.wallet.exchange.GoogleRateLookup;
 import de.schildbach.wallet.exchange.RateLookup;
 import de.schildbach.wallet.exchange.YahooRateLookup;
+import de.schildbach.wallet.exchange.CryptsyRateLookup;
 import de.schildbach.wallet.util.GenericUtils;
 import de.schildbach.wallet.util.Io;
 import org.json.JSONObject;
@@ -51,7 +52,7 @@ import android.provider.BaseColumns;
 import android.text.format.DateUtils;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Litecoin Dev Team, Lavajumper
  */
 public class ExchangeRatesProvider extends ContentProvider
 {
@@ -92,7 +93,11 @@ public class ExchangeRatesProvider extends ContentProvider
     private static final URL KRAKEN_URL;
     private static final URL KRAKEN_EURO_URL;
 	private static final String[] KRAKEN_FIELDS = new String[] { "value" };
-
+	//private static final URL CRYPTSY_BTC_URL;
+    //private static final URL CRYPTSY_LTC_URL;
+    //private static final String[] CRYPTSY_BTC_FIELDS = new String[] { "value" };
+    //private static final String[] CRYPTSY_LTC_FIELDS = new String[] { "value" };
+    
 	static
 	{
 		try
@@ -101,6 +106,8 @@ public class ExchangeRatesProvider extends ContentProvider
             BTCE_EURO_URL = new URL("https://btc-e.com/api/2/ltc_eur/ticker");
             KRAKEN_URL = new URL("https://api.kraken.com/0/public/Ticker?pair=XLTCZUSD");
             KRAKEN_EURO_URL = new URL("https://api.kraken.com/0/public/Ticker?pair=XLTCZEUR");
+           // CRYPTSY_BTC_URL = new URL("https://cryptsy.com/api/2/btc_usd/ticker?market=2");
+           // CRYPTSY_LTC_URL = new URL("https://cryptsy.com/api/2/ltc_usd/ticker?market=1");
 		}
 		catch (final MalformedURLException x)
 		{

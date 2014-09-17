@@ -496,7 +496,7 @@ public final class SendCoinsFragment extends SherlockFragment
 			final String scheme = intentUri != null ? intentUri.getScheme() : null;
 
 			if ((Intent.ACTION_VIEW.equals(action) || NfcAdapter.ACTION_NDEF_DISCOVERED.equals(action)) && intentUri != null
-					&& "litecoin".equals(scheme))
+					&& "sexcoin".equals(scheme))
 				initStateFromBitcoinUri(intentUri);
 			else if (intent.hasExtra(SendCoinsActivity.INTENT_EXTRA_ADDRESS))
 				initStateFromIntentExtras(intent.getExtras());
@@ -673,7 +673,7 @@ public final class SendCoinsFragment extends SherlockFragment
             }
 
             if(input == null) return;
-            Log.d("Litecoin", "SCAN RESULT:" + input);
+            Log.d("Sexcoin", "SCAN RESULT:" + input);
 
             new StringInputParser(input)
             {

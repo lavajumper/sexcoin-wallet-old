@@ -62,7 +62,7 @@ public abstract class InputParser
 		public void parse()
 		{
             if(input == null) return;
-			if (input.startsWith("litecoin:"))
+			if (input.startsWith("sexcoin:"))
 			{
 				try
 				{

@@ -143,7 +143,7 @@ public final class SendingAddressesFragment extends SherlockListFragment impleme
         }
 
         if(input == null) return;
-        Log.d("Litecoin", "SCAN RESULT:" + input);
+        Log.d("Sexcoin", "SCAN RESULT:" + input);
 
         new StringInputParser(input)
         {
