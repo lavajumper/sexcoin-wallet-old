@@ -454,7 +454,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 							peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
                             //if(dbPeerDiscovery != null)
                             //    peers.addAll(Arrays.asList(dbPeerDiscovery.getPeers(1, TimeUnit.SECONDS)));
-							//peers.addAll(Arrays.asList(dnsPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
+							peers.addAll(Arrays.asList(dnsPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
                         }
 
 						// workaround because PeerGroup will shuffle peers

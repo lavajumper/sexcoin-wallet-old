@@ -57,7 +57,7 @@ public class Constants
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
     private static final String EXPLORE_BASE_URL_PROD = "http://be.lavajumper.com/";
-    private static final String EXPLORE2_BASE_URL_PROD = "http://be.lavajumper.com/";
+    private static final String EXPLORE2_BASE_URL_PROD = "http://sxcexplorer.com/";
     public static final String EXPLORE_BASE_URL = EXPLORE_BASE_URL_PROD;
     public static final String EXPLORE2_BASE_URL = EXPLORE2_BASE_URL_PROD;
 
@@ -108,7 +108,7 @@ public class Constants
     public static final String ANDROID_WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";
     public static final String BB_WEBMARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
 
-	public static final String VERSION_URL = "http://wallet.schildbach.de/version";
+	public static final String VERSION_URL = "http://sexcoin.info/androidwalletversion";
 	public static final int HTTP_TIMEOUT_MS = 15 * (int) DateUtils.SECOND_IN_MILLIS;
 
 	public static final String PREFS_KEY_LAST_VERSION = "last_version";
