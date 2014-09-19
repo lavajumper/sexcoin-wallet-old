@@ -150,7 +150,7 @@ public class ExchangeRatesProvider extends ContentProvider
 
 			Map<String, ExchangeRate> newExchangeRates = null;
             // Attempt to get USD exchange rates from all providers.  Stop after first.
-			newExchangeRates = requestCryptsyExchangeRates(CRYPTSY_LTC_URL, "USD", CRYPTSY_LTC_FIELDS);
+			newExchangeRates = requestCryptsyExchangeRates(CRYPTSY_BTC_URL, "USD", CRYPTSY_BTC_FIELDS);
 			//newExchangeRates = requestExchangeRates(BTCE_URL, "USD", BTCE_FIELDS);
 			if (newExchangeRates == null)
             {
@@ -418,10 +418,19 @@ public class ExchangeRatesProvider extends ContentProvider
 					{
 						if(fields[0].equals("BTC")){
 							sxcrate = getSexcoinRate(CRYPTSY_SXCBTC_URL);
+							log.info("sxcrate(btc) = " + sxcrate);
 						}else{
 							sxcrate = getSexcoinRate(CRYPTSY_SXCLTC_URL);
+							log.info("sxcrate(ltc) = " + sxcrate);
 						}
-						rate = sxcrate.divide(rate);
+						log.info("rate = " + rate);
+						double cRate = rate.doubleValue() / 100000000;
+						double sRate = sxcrate.doubleValue() / 100000000;
+						double tRate = cRate * sRate;
+						log.info("converted rate = " + tRate);
+						String nRate = "" + tRate;
+						
+						rate = GenericUtils.toNanoCoinsRounded(nRate, 0);
 						rates.put(currencyCode, new ExchangeRate(currencyCode, rate, url.getHost()));
 					}
 					 
