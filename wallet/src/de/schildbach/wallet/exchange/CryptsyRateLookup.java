@@ -1,6 +1,7 @@
 package de.schildbach.wallet.exchange;
 
 import java.math.BigDecimal;
+import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;
@@ -20,7 +21,7 @@ public class CryptsyRateLookup extends RateLookup {
 
     public CryptsyRateLookup()
     {
-        super("http://cryptsy.com/api/2/ticker?market=153");
+        super("http://pubapi.cryptsy.com/api.php?method=singlemarketdata&marketid=153");
     }
 
     public Map<String, ExchangeRatesProvider.ExchangeRate> getRates(ExchangeRatesProvider.ExchangeRate usdRate) {
@@ -35,10 +36,10 @@ public class CryptsyRateLookup extends RateLookup {
             try
             {
                 JSONObject head = new JSONObject(this.data);
-                JSONArray resultArray;
+                head = head.getJSONObject("result").getJSONObject("markets").getJSONObject("SXC");
 
-                head = head.getJSONObject("feed");
-                resultArray = head.getJSONArray("entry");
+                JSONArray resultArray = head.getJSONArray("SXC");
+                Log.i(TAG,resultArray.toString(2));
                 // Format: eg. _cpzh4: 3.673
                 Pattern p = Pattern.compile("_cpzh4: ([\\d\\.]+)");
                 for(int i = 0; i < resultArray.length(); ++i) {
@@ -61,7 +62,10 @@ public class CryptsyRateLookup extends RateLookup {
                             rates.put(currencyCd, new ExchangeRatesProvider.ExchangeRate(currencyCd,
                                     GenericUtils.toNanoCoinsRounded(rate.toString(), 0), this.url.getHost()));
                         }
+                    }else{
+                    	Log.d(TAG,"rateStr = " + rateStr);
                     }
+                    
                 }
             } catch(JSONException e) {
                 Log.i(TAG, "Bad JSON response from Cryptsy API!: " + data);

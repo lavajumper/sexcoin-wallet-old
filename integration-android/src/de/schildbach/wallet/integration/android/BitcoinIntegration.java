@@ -171,7 +171,7 @@ public final class BitcoinIntegration
 
 	private static void redirectToDownload(final Context context)
 	{
-		Toast.makeText(context, "No Litecoin application found.\nPlease install Litecoin Wallet.", Toast.LENGTH_LONG).show();
+		Toast.makeText(context, "No Sexcoin application found.\nPlease install Sexcoin Wallet.", Toast.LENGTH_LONG).show();
 
 		final Intent marketIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=de.schildbach.wallet"));
 		final Intent binaryIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://code.google.com/p/bitcoin-wallet/downloads/list"));
