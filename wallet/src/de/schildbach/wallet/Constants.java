@@ -34,7 +34,7 @@ import de.schildbach.wallet_ltc.R;
 import org.sexcoin.SexcoinParams;
 
 /**
- * @author Andreas Schildbach, Litecoin Dev Team
+ * @author Andreas Schildbach, Litecoin Dev Team, Lavajumper
  */
 public class Constants
 {

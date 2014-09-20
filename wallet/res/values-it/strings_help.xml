@@ -3,11 +3,11 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			La parte in alto a sinistra dello schermo mostra gli indirizzo Litecoin che le altre persone hanno bisogno per poterti inviare dei Litecoin.
+			La parte in alto a sinistra dello schermo mostra gli indirizzo Sexcoin che le altre persone hanno bisogno per poterti inviare dei Sexcoin.
 			Premi per cambiare l\'indirizzo.
 		</p>
 		<p>
-			Il codice QR sulla destra contiene il tuo indirizzo Litecoin e può essere usato per farlo leggere ad altri.
+			Il codice QR sulla destra contiene il tuo indirizzo Sexcoin e può essere usato per farlo leggere ad altri.
 			Premi sul codice per visualizzarne una versione più grande.
 		</p>
 		<p>
@@ -22,7 +22,7 @@
 			Trascina a destra o sinistra per impostare dei filtri alla lista.
 		</p>
 		<p>
-			Puoi inviare o ricevere Litecoins premendo i tasti nella barra delle azioni.
+			Puoi inviare o ricevere Sexcoins premendo i tasti nella barra delle azioni.
 			Sono disponibili ulteriori comandi nel menù opzioni.
 		</p>
 ]]>
@@ -30,19 +30,19 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Utilizzando questa finestra puoi richiedere dei Litecoin ad un\'altra persona
-			(che dovrebbe aver già installato Litecoin Wallet).
+			Utilizzando questa finestra puoi richiedere dei Sexcoin ad un\'altra persona
+			(che dovrebbe aver già installato Sexcoin Wallet).
 		</p>
 		<p>
-			Come prima cosa puoi inserire il numero di Litecoin da richiedere.
+			Come prima cosa puoi inserire il numero di Sexcoin da richiedere.
 		</p>
 		<p>
 			Poi puoi generare dei codici QR da far acquisire all\'altra persona.
 			Oppure puoi inviare la richiesta con il tasto "condividi" nella barra azioni.
-			La persona che riceve la richiesta dovrà cliccare l\'URL Litecoin.
+			La persona che riceve la richiesta dovrà cliccare l\'URL Sexcoin.
 		</p>
 		<p>
-			In ogni modo alla persona ricevente verrà presentata un modulo precompilato per inviare i Litecoin.
+			In ogni modo alla persona ricevente verrà presentata un modulo precompilato per inviare i Sexcoin.
 			Per confermare l\'invio dovrà solo accettare la transazione.
 		</p>
 ]]>
@@ -50,24 +50,24 @@
     <string name="help_send_coins">
 <![CDATA[
 		<p>
-			Hai iniziato il processo per inviare Litecoins.
-			Sei giunto qui a partire dalla schermata principale o cliccando su di un URL Litecoin dal tuo browser.
+			Hai iniziato il processo per inviare Sexcoins.
+			Sei giunto qui a partire dalla schermata principale o cliccando su di un URL Sexcoin dal tuo browser.
 		</p>
 		<p>
-			Come prima cosa è necessario inserire l\'indirizzo Litecoin a cui inviare.
+			Come prima cosa è necessario inserire l\'indirizzo Sexcoin a cui inviare.
 			L\'indirizzo si autocompleterà in base al contenuto della tua rubrica.
-			Puoi anche acquisire un codice QR che contiene indirizzi Litecoin o richieste Litecoin premendo il tasto QR sulla barra azioni.
+			Puoi anche acquisire un codice QR che contiene indirizzi Sexcoin o richieste Sexcoin premendo il tasto QR sulla barra azioni.
 		</p>
 		<p>
-			Ti è poi possibile visualizzare quanti Litecoin puoi spendere.
+			Ti è poi possibile visualizzare quanti Sexcoin puoi spendere.
 			Eventuali differenze con il saldo visualizzato sulla schermata principale fanno parte di transazioni
 			non ancora confermate il cui importo non può quindi essere ancora utilizzato.
 		</p>
 		<p>
-			Puoi infine inserire il numero di Litecoin da inviare.
+			Puoi infine inserire il numero di Sexcoin da inviare.
 		</p>
 		<p>
-			Puoi inserire una transazione anche senza collegamento ad Internet, verrà inviata alla prossima esecuzione di Litecoin Wallet.
+			Puoi inserire una transazione anche senza collegamento ad Internet, verrà inviata alla prossima esecuzione di Sexcoin Wallet.
 			Se vuoi che la transazione venga processata il prima possibile assicurati di avere un buon collegamento ad Internet.
 		</p>
 		<p>
@@ -79,19 +79,19 @@
     </string>
     <string name="help_safety">
 <![CDATA[
-		<p><b>Alcune informazioni riguardo la sicurezza relativa ai vostri Litecoins:</b></p>
+		<p><b>Alcune informazioni riguardo la sicurezza relativa ai vostri Sexcoins:</b></p>
         <p>
-            I Litecoins di Litecoin Wallet vengono memorizzati sul dispositivo.
-            <b>Se perdi il dispositivo, perdi i tuoi Litecoin.</b>
+            I Sexcoins di Sexcoin Wallet vengono memorizzati sul dispositivo.
+            <b>Se perdi il dispositivo, perdi i tuoi Sexcoin.</b>
             Esattamente come denaro nel tuo vero portafoglio.
         </p>
         <p>
-            <b>Prima di disinstallare Litecoin Wallet</b> (o cancellare i dati dell\'applicazione o del dispositivo), <b>trasferisci i tuoi Litecoins ad un altro portafoglio</b>.
-            Eventuali Litecoin non trasferiti saranno persi per sempre.
+            <b>Prima di disinstallare Sexcoin Wallet</b> (o cancellare i dati dell\'applicazione o del dispositivo), <b>trasferisci i tuoi Sexcoins ad un altro portafoglio</b>.
+            Eventuali Sexcoin non trasferiti saranno persi per sempre.
         </p>
         <p>
             <b>I pagamenti non possono essere annullate</b>.
-            Se invi i tuoi Litecoin ad indirizzi errati non c\'è modo di riaverli indietro
+            Se invi i tuoi Sexcoin ad indirizzi errati non c\'è modo di riaverli indietro
             a meno che tu non conosca il ricevente e che sia disponibile a restituirli.
         </p>
         <p>
@@ -101,10 +101,10 @@
         </p>
         <p>
             Tieni basso il rischio!
-            <b>Usa Litecoin Wallet solo con piccoli importi</b> sufficienti per l\'uso quotidiano.
+            <b>Usa Sexcoin Wallet solo con piccoli importi</b> sufficienti per l\'uso quotidiano.
         </p>
         <p><b>DISCLAIMER OF WARRANTY</b></p>
-        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Bitcoin) is experimental software with source fully available to the public.</p>
+        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Sexcoin (like Bitcoin) is experimental software with source fully available to the public.</p>
         <span style=\"font-family: monospace\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

@@ -2,10 +2,10 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>LTC, 8 Dezimalen</item>
-		<item>LTC, 6 Dezimalen</item>
-		<item>LTC, 4 Dezimalen</item>
-		<item>mLTC, 2 Dezimalen</item>
+		<item>SXC, 8 Dezimalen</item>
+		<item>SXC, 6 Dezimalen</item>
+		<item>SXC, 4 Dezimalen</item>
+		<item>mSXC, 2 Dezimalen</item>
 	</string-array>
 
 </resources>

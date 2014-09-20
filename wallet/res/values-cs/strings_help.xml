@@ -3,11 +3,11 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			Horní levá část obrazovky zobrazuje Vaši aktuální Litecoin adresu, kterou druhá strana potřebuje znát, aby Vám mohla zaslat platbu.
+			Horní levá část obrazovky zobrazuje Vaši aktuální Sexcoin adresu, kterou druhá strana potřebuje znát, aby Vám mohla zaslat platbu.
 			Kliknutím na adresu ji změníte.
 		</p>
 		<p>
-			QR kód na pravé straně obsahuje Vaši Litecoin adresu a může být použit pro naskenování druhou stranou.
+			QR kód na pravé straně obsahuje Vaši Sexcoin adresu a může být použit pro naskenování druhou stranou.
 			Klepněte na QR kód pro zobrazení větší verze.
 		</p>
 		<p>
@@ -22,7 +22,7 @@
 			Táhnutím vlevo či vpravo je možné aplikovat na seznam filtr.
 		</p>
 		<p>
-			Můžete poslat nebo si vyžádat Litecoiny klepnutím na patřičné tlačítko v akční nabídce.
+			Můžete poslat nebo si vyžádat Sexcoiny klepnutím na patřičné tlačítko v akční nabídce.
 			Více možností je v nabídce nastavení.
 		</p>
 ]]>
@@ -30,10 +30,10 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Pomocí tohoto dialogu můžete vyžádat Litecoiny od někoho jiného (kdo by měl také mít nainstalovanou aplikaci Litecoin Wallet).
+			Pomocí tohoto dialogu můžete vyžádat Sexcoiny od někoho jiného (kdo by měl také mít nainstalovanou aplikaci Sexcoin Wallet).
 		</p>
 		<p>
-			Nejprve zadejte množství Litecoinů, které chcete vyžádat.
+			Nejprve zadejte množství Sexcoinů, které chcete vyžádat.
 		</p>
 		<p>
 			Potom můžete protistraně nabídnout vygenerovaný QR kód k oskenování,
@@ -41,7 +41,7 @@
 			Druhá strana potom klikne na získanou adresu.
 		</p>
 		<p>
-			V obou případech bude odesílatel uvidí dialog na zasílání Litecoinů s předvzplněnými údaji.
+			V obou případech bude odesílatel uvidí dialog na zasílání Sexcoinů s předvzplněnými údaji.
 			Pokud souhlasí, potvrdí zadané informace a dojde k transakci.
 		</p>
 ]]>
@@ -49,7 +49,7 @@
     <string name="help_send_coins">
 <![CDATA[
 		<p>
-			Právě jste zahájil zasílání Litecoinů.
+			Právě jste zahájil zasílání Sexcoinů.
 			Sem jste se musel dostat buď přes hlavní obrazovku aplikace, nebo pomocí klepnutí na speciální adresu v prohlížeči.
 		</p>
 		<p>
@@ -58,7 +58,7 @@
 			Můžete také naskenovat QR kód s adresou peněženky nebo požadavek na zaplacení stisknutím tlačítka s QR kódem.
 		</p>
 		<p>
-			V dalším kroku uvidíte, kolik Litecoinů můžete momentálně utratit.
+			V dalším kroku uvidíte, kolik Sexcoinů můžete momentálně utratit.
 			Jakýkoliv rozdíl vůči zůstatku zobrazenému na výchozí obrazovce je stále nepotvrzen a tudíž nemůže být utracen.
 		</p>
 		<p>
@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			Transakce můžete provádět, i když jste právě offline.
-			Budou provedeny při dalším spuštění aplikace Litecoin Wallet.
+			Budou provedeny při dalším spuštění aplikace Sexcoin Wallet.
 			Pokud chcete transakci provést co nejrychleji, ujistěte se, že máte rychlé připojení (například jste připojeni pomocí bezdrátové sítě).
 		</p>
 		<p>
@@ -78,31 +78,31 @@
     </string>
     <string name="help_safety">
 <![CDATA[
-		<p><b>Několik slov o bezpečnosti vašich Litecoinů:</b></p>
+		<p><b>Několik slov o bezpečnosti vašich Sexcoinů:</b></p>
         <p>
-            Litecoiny v aplikaci Litecoin Wallet jsou uloženy ve vašem zařízení.
-            <b>Pokud o zařízení přijdete, přijdete i o Litecoiny v něm.</b>
+            Sexcoiny v aplikaci Sexcoin Wallet jsou uloženy ve vašem zařízení.
+            <b>Pokud o zařízení přijdete, přijdete i o Sexcoiny v něm.</b>
             Stejně jako při ztrátě normální peněženky.
         </p>
         <p>
-            <b>Před odinstalací aplikace Litecoin Wallet</b> (nebo při odstraňování dat/wipe), <b> si přepošlete zůstatek do jiné peněženky</b>.
+            <b>Před odinstalací aplikace Sexcoin Wallet</b> (nebo při odstraňování dat/wipe), <b> si přepošlete zůstatek do jiné peněženky</b>.
             Jakékoliv zůstavší Bitcony budou nenávratně ztraceny.
         </p>
         <p>
             <b>Transakce nemohou být zrušeny</b>.
-            Pokud pošlete Litecoiny někam neznámo kam, neexistuje možnost, jak je získat zpět, jedině byste znali příjemce a on měl zrovna náladu je poctivě vrátit.
+            Pokud pošlete Sexcoiny někam neznámo kam, neexistuje možnost, jak je získat zpět, jedině byste znali příjemce a on měl zrovna náladu je poctivě vrátit.
         </p>
         <p>
             <b>Udržujte vašeho Androida v bezpečí!</b>
             Instalujte pouze aplikace, kterým plně důvěřujete.
-            Existují škodlivé aplikace, které vás mohou o vaše Litecoiny připravit.
+            Existují škodlivé aplikace, které vás mohou o vaše Sexcoiny připravit.
         </p>
         <p>
             Neriskujte zbytečně!
-            <b>V aplikaci Litecoin Wallet mějte pouze malé částky</b> pro rychlé použití.
+            <b>V aplikaci Sexcoin Wallet mějte pouze malé částky</b> pro rychlé použití.
         </p>
         <p><b>DISCLAIMER OF WARRANTY</b></p>
-        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Bitcoin) is experimental software with source fully available to the public.</p>
+        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Sexcoin (like Bitcoin) is experimental software with source fully available to the public.</p>
         <span style=\"font-family: monospace\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

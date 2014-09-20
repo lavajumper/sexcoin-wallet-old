@@ -52,7 +52,7 @@
 	<string name="send_coins_fragment_receiving_address_error_cross_network">לא ניתן להשתמש בכתובת זו בארנק זה</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">לא ניתן להשתמש בכתובת  זו ברשת לא ידועה</string>
 	<string name="send_coins_fragment_available_label">ניתן להוצאה</string>
-	<string name="send_coins_fragment_pending">(LTC %s waiting for confirmation)</string>
+	<string name="send_coins_fragment_pending">(SXC %s waiting for confirmation)</string>
 	<string name="send_coins_fragment_amount_label">סכום לתשלום</string>
 	<string name="send_coins_fragment_amount_empty">הקש סכום</string>
 	<string name="send_coins_fragment_amount_error">סכום לא חוקי</string>
@@ -151,7 +151,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">שלח דוח באמצעות…</string>
 	<string name="about_title">על</string>
 	<string name="about_license_title">רישיון</string>
-	<string name="about_credits_litecoinj_title">This app is using litecoinj %s</string>
+	<string name="about_credits_litecoinj_title">This app is using bitcoinj-scrypt %s</string>
 	<string name="about_credits_zxing_title">"This app is using 'zxing'"</string>
 	<string name="about_credits_icon_title">"This app is using an icon by 'bitboy'"</string>
 	<string name="about_author_twitter_title">Author at Twitter</string>

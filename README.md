@@ -1,6 +1,7 @@
 Welcome to _Sexcoin Wallet_, a standalone Sexcoin payment app for your Android device!
 
 __There is a pre-alpha release available for brave folk__
+
 __!!DO NOT RISK LARGE AMOUNTS OF COIN!!__
 
 This project contains several sub-projects:

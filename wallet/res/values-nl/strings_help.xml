@@ -3,11 +3,11 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			Het deel van het scherm links boven geeft uw geselecteerde Litecoin adres weer, deze hebben andere mensen nodig om u Litecoins te kunnen sturen.
+			Het deel van het scherm links boven geeft uw geselecteerde Sexcoin adres weer, deze hebben andere mensen nodig om u Sexcoins te kunnen sturen.
 			Tik aan om het adres te wijzigen.
 		</p>
 		<p>
-			De QR-code rechts bevat uw litecoin adres en kan gebruikt worden om in te scannen door anderen.
+			De QR-code rechts bevat uw sexcoin adres en kan gebruikt worden om in te scannen door anderen.
 			Tik op de QR-code om een grotere versie weer te geven.
 		</p>
 		<p>
@@ -22,7 +22,7 @@
 			Schuif naar links of rechts om filters toe te passen.
 		</p>
 		<p>
-			U kunt Litecoins verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
+			U kunt Sexcoins verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
 			Meer opties zijn beschikbaar in het opties-menu.
 		</p>
 ]]>
@@ -30,18 +30,18 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Deze dialoog kunt u gebruiken om Litecoins te verzoeken van iemand anders (die ook Litecoin Wallet of een andere Litecoin client geinstalleerd heeft).
+			Deze dialoog kunt u gebruiken om Sexcoins te verzoeken van iemand anders (die ook Sexcoin Wallet of een andere Sexcoin client geinstalleerd heeft).
 		</p>
 		<p>
-			Als eerste geeft u een Litecoin bedrag aan wat u wilt verzoeken.
+			Als eerste geeft u een Sexcoin bedrag aan wat u wilt verzoeken.
 		</p>
 		<p>
 			Daarna kan de andere persoon de QR-code scannen.
 			Of u kunt uw verzoek met de \'delen\'-knop versturen.
-			De andere persoon dient op de Litecoin URL te klikken.
+			De andere persoon dient op de Sexcoin URL te klikken.
 		</p>
 		<p>
-			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Litecoins waarin alle velden ingevuld zijn.
+			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Sexcoins waarin alle velden ingevuld zijn.
 			Als er akkoord gegaan word met de transactie hoeft deze alleen nog verzonden te worden.
 		</p>
 ]]>
@@ -49,16 +49,16 @@
     <string name="help_send_coins">
 <![CDATA[
 		<p>
-			U heeft het dialoog gestart om Litecoins te verzenden.
-			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Litecoin URL in uw browser.
+			U heeft het dialoog gestart om Sexcoins te verzenden.
+			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Sexcoin URL in uw browser.
 		</p>
 		<p>
-			Als eerste geeft u het Litecoin adres in waar naar u wilt betalen.
+			Als eerste geeft u het Sexcoin adres in waar naar u wilt betalen.
 			Het adres zal automatisch aangevuld worden als deze bekend is in het adresboek.
-			U kan ook QR-codes scannen met een Litecoin adres of verzoek door op de QR knop in de actie-balk te klikken.
+			U kan ook QR-codes scannen met een Sexcoin adres of verzoek door op de QR knop in de actie-balk te klikken.
 		</p>
 		<p>
-			Vervolgens kunt u zien hoe veel Litecoins op dit moment beschikbaar zijn voor besteding.
+			Vervolgens kunt u zien hoe veel Sexcoins op dit moment beschikbaar zijn voor besteding.
 			Het eventuele verschil met het saldo van het hoofdscherm is nog onbevestigd en kan dus nog niet worden uitgegeven.
 		</p>
 		<p>
@@ -66,7 +66,7 @@
 		</p>
 		<p>
 			U kunt ook transacties ingeven terwijl u offline bent.
-			Deze transacties zullen verzonden worden zodra Litecoin Wallet de volgende keer gestart wordt en online is.
+			Deze transacties zullen verzonden worden zodra Sexcoin Wallet de volgende keer gestart wordt en online is.
 			Als u wenst dat uw transacties zo snel mogelijk verwerkt worden is het verstandig om verbonden te zijn met een zo goed mogelijke internet verbinding (d.w.z. op WLAN).
 		</p>
 		<p>
@@ -78,19 +78,19 @@
     </string>
     <string name="help_safety">
 <![CDATA[
-		<p><b>Enkele woorden over de veiligheid van uw Litecoins:</b></p>
+		<p><b>Enkele woorden over de veiligheid van uw Sexcoins:</b></p>
         <p>
-            Litecoins in Litecoin Wallet zijn opgeslagen op het apparaat.
-            <b>Als u uw apparaat verliest zullen deze Litecoins ook verloren zijn.</b>
+            Sexcoins in Sexcoin Wallet zijn opgeslagen op het apparaat.
+            <b>Als u uw apparaat verliest zullen deze Sexcoins ook verloren zijn.</b>
             Vergelijkbaar met het verlies van uw portemonnee.
         </p>
         <p>
-            <b>Voor het verwijderen van Litecoin Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de litecoins over te zetten naar een andere wallet.</b>.
-            Overblijvende Litecoins zullen verloren gaan.
+            <b>Voor het verwijderen van Sexcoin Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de sexcoins over te zetten naar een andere wallet.</b>.
+            Overblijvende Sexcoins zullen verloren gaan.
         </p>
         <p>
-            <b>Transacties met Litecoin kunnen niet ongedaan gemaakt worden</b>.
-            Als u Litecoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Litecoins terug te sturen.
+            <b>Transacties met Sexcoin kunnen niet ongedaan gemaakt worden</b>.
+            Als u Sexcoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Sexcoins terug te sturen.
         </p>
         <p>
             <b>Houd uw Android apparaat veilig!</b>
@@ -99,10 +99,10 @@
         </p>
         <p>
             Houd het risico laag!
-            <b>Gebruik Litecoin Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
+            <b>Gebruik Sexcoin Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
 	    </p>
         <p><b>DISCLAIMER OF WARRANTY</b></p>
-        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Bitcoin) is experimental software with source fully available to the public.</p>
+        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Sexcoin (like Bitcoin) is experimental software with source fully available to the public.</p>
         <span style=\"font-family: monospace\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE

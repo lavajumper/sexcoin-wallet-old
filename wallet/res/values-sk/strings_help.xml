@@ -3,16 +3,16 @@
     <string name="help_wallet">
 <![CDATA[
 		<p>
-			V ľavej hornej časti obrazovky je Vaša aktuálna Bitcoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Bitcoiny.
+			V ľavej hornej časti obrazovky je Vaša aktuálna Sexcoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Sexcoiny.
 			Kliknutím na adresu ju môžte zmeniť.
 		</p>
 		<p>
-			QR kód na pravej strane obsahuje Vašu Bitcoin adresu, odosielateľ ho môže jednoducho naskenovať.
+			QR kód na pravej strane obsahuje Vašu Sexcoin adresu, odosielateľ ho môže jednoducho naskenovať.
 			Kliknite na QR kód, aby ste ho zväčšili.
 		</p>
 		<p>
 			V strede obrazovky je zobrazený aktuálny zostatok.
-			Hodnota Vašich Bitcoinov je zobrazená aj v inej zvolenej mene.
+			Hodnota Vašich Sexcoinov je zobrazená aj v inej zvolenej mene.
 			Kliknutím na zostatok zobrazíte zoznam cudzích mien, následným kliknutím na menu ju môžte nastaviť ako predvolenú.
 		</p>
 		<p>
@@ -22,7 +22,7 @@
 			Ťahom vľavo a vpravo môžte filtrovať prijaté a odoslané platby.
 		</p>
 		<p>
-			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať Bitcoiny.
+			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať Sexcoiny.
 			Ďalšie možnosti sú v ponuke nastavení.
 		</p>
 ]]>
@@ -30,18 +30,18 @@
     <string name="help_request_coins">
 <![CDATA[
 		<p>
-			Na tejto obrazovke môžete vyžiadať Bitcoiny od niekoho iného (kto má nainštalovanú aplikáciu Bitcoin Wallet).
+			Na tejto obrazovke môžete vyžiadať Sexcoiny od niekoho iného (kto má nainštalovanú aplikáciu Sexcoin Wallet).
 		</p>
 		<p>
-			Najprv zadajte sumu Bitcoinov, ktoré chcete vyžiadať.
+			Najprv zadajte sumu Sexcoinov, ktoré chcete vyžiadať.
 		</p>
 		<p>
 			Potom dajte druhej strane naskenovať vygenerovaný QR kód
 			alebo môžte svoju žiadosť poslať použitím tlačidla zdieľať.
-			Druhá strana potom klikne na Bitcoin URL.
+			Druhá strana potom klikne na Sexcoin URL.
 		</p>
 		<p>
-			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Bitcoinov.
+			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Sexcoinov.
 			Ak s transakciou súhlasí, tak ju iba potvrdí.
 		</p>
 ]]>
@@ -49,17 +49,17 @@
     <string name="help_send_coins">
 <![CDATA[
 		<p>
-			Práve ste začali proces odosielania Bitcoinov.
-			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Bitcoin adresu v prehliadači.
+			Práve ste začali proces odosielania Sexcoinov.
+			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Sexcoin adresu v prehliadači.
 		</p>
 		<p>
 			Najprv zadajte adresu, na ktorú chcete odoslať platbu.
 			Ak sa adresa nachádza v adresári, tak sa automaticky doplní.
-			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Bitcoin adresou alebo požiadavkou na zaplatenie.
+			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Sexcoin adresou alebo požiadavkou na zaplatenie.
 		</p>
 		<p>
-			Ďalej vidíte koľko Bitcoinov môžete aktuálne minúť.
-			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom Bitcoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
+			Ďalej vidíte koľko Sexcoinov môžete aktuálne minúť.
+			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom Sexcoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
 		</p>
 		<p>
 			Nakoniec zadajte sumu platby.
@@ -80,8 +80,8 @@
 <![CDATA[
 		<p><b>Dôležité informácie o bezpečnosti:</b></p>
         <p>
-            Bitcoiny sú uložené na Vašom zariadení.
-            <b>Ak zariadenie stratíte, prídete o všetky svoje Bitcoiny.</b>
+            Sexcoiny sú uložené na Vašom zariadení.
+            <b>Ak zariadenie stratíte, prídete o všetky svoje Sexcoiny.</b>
         </p>
         <p>
             To znamená, že by ste mali <b>zálohovať svoju peňaženku</b>!
@@ -89,12 +89,12 @@
             Svoju zálohu bezpečne uchovajte a nezabudnite heslo.
         </p>
         <p>
-            <b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje Bitcoiny do inej peňaženky</b>.
-            Inak o svoje Bitcoiny prídete.
+            <b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje Sexcoiny do inej peňaženky</b>.
+            Inak o svoje Sexcoiny prídete.
         </p>
         <p>
             <b>Platby sa nedajú stornovať</b>.
-            Ak pošlete svoje Bitcoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
+            Ak pošlete svoje Sexcoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
         </p>
         <p>
             <b>Chráňte si svoje zariadenie!</b>
@@ -107,7 +107,7 @@
             <b>Aplikáciu používajte len na malé sumy.</b>
         </p>
         <p><b>DISCLAIMER OF WARRANTY</b></p>
-        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Bitcoin) is experimental software with source fully available to the public.</p>
+        <p>The developers of this app use their best efforts to improve its functionality and security. That being said, Litecoin (like Sexcoin) is experimental software with source fully available to the public.</p>
         <span style=\"font-family: monospace\">THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
