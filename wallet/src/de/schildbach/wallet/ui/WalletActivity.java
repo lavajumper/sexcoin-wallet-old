@@ -90,7 +90,7 @@ import de.schildbach.wallet.util.Crypto;
 import de.schildbach.wallet.util.HttpGetThread;
 import de.schildbach.wallet.util.Nfc;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_sxc.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team

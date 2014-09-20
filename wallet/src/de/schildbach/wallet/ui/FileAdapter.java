@@ -28,7 +28,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_sxc.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team

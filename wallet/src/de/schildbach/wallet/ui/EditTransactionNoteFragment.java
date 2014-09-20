@@ -35,7 +35,7 @@ import android.widget.TextView;
 import de.schildbach.wallet.AddressBookProvider;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_sxc.R;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;

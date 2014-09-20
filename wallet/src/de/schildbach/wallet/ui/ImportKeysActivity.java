@@ -45,7 +45,7 @@ import com.google.bitcoin.core.Wallet;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.util.Crypto;
 import de.schildbach.wallet.util.WalletUtils;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_sxc.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team

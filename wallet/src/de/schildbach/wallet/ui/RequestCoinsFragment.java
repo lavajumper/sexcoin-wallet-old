@@ -72,7 +72,7 @@ import de.schildbach.wallet.ExchangeRatesProvider;
 import de.schildbach.wallet.ExchangeRatesProvider.ExchangeRate;
 import de.schildbach.wallet.WalletApplication;
 import de.schildbach.wallet.offline.AcceptBluetoothService;
-import de.schildbach.wallet_ltc.R;
+import de.schildbach.wallet_sxc.R;
 
 /**
  * @author Andreas Schildbach, Litecoin Dev Team

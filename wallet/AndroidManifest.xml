@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
-	package="de.schildbach.wallet_ltc"
+	package="de.schildbach.wallet_sxc"
 	android:installLocation="internalOnly"
-	android:versionCode="162"
-	android:versionName="3.30.8" >
+	android:versionCode="50"
+	android:versionName="0.10.1" >
 
 	<uses-sdk
 		android:minSdkVersion="10"
@@ -88,7 +88,7 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.intent.action.VIEW" />
 
-				<data android:scheme="litecoin" />
+				<data android:scheme="sexcoin" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
@@ -96,7 +96,7 @@
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
 
-				<data android:scheme="litecoin" />
+				<data android:scheme="sexcoin" />
 
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>

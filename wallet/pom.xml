@@ -6,7 +6,7 @@
 
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
-	<version>3.30.8</version>
+	<version>0.10.1</version>
 	<name>Sexcoin Wallet</name>
 
 	<parent>
