@@ -4,7 +4,7 @@
 	package="de.schildbach.wallet_sxc"
 	android:installLocation="internalOnly"
 	android:versionCode="50"
-	android:versionName="0.10.1" >
+	android:versionName="0.10.2" >
 
 	<uses-sdk
 		android:minSdkVersion="10"
@@ -158,7 +158,7 @@
 
 				<category android:name="android.intent.category.DEFAULT" />
 
-				<data android:mimeType="x-litecoin/private-keys" />
+				<data android:mimeType="x-sexcoin/private-keys" />
 				<data android:mimeType="application/octet-stream" />
 			</intent-filter>
 		</activity>
@@ -172,11 +172,11 @@
 
 		<provider
 			android:name="de.schildbach.wallet.AddressBookProvider"
-			android:authorities="de.schildbach.wallet_ltc.address_book"
+			android:authorities="de.schildbach.wallet_sxc.address_book"
 			android:exported="false" />
 		<provider
 			android:name="de.schildbach.wallet.ExchangeRatesProvider"
-			android:authorities="de.schildbach.wallet_ltc.exchange_rates"
+			android:authorities="de.schildbach.wallet_sxc.exchange_rates"
 			android:exported="false" />
 
 		<receiver

@@ -1,7 +1,6 @@
 package de.schildbach.wallet.exchange;
 
 import java.math.BigDecimal;
-import java.util.Arrays;
 import java.util.Map;
 import java.util.TreeMap;
 import java.util.regex.Matcher;

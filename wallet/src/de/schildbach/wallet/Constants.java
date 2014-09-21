@@ -30,7 +30,6 @@ import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 
 import de.schildbach.wallet_sxc.R;
-//import org.litecoin.LitecoinParams;
 import org.sexcoin.SexcoinParams;
 
 /**
