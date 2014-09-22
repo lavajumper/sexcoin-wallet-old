@@ -1,19 +1,19 @@
-Dit is een standalone Litecoin Wallet voor uw Android apparaat. U kan direct Litecoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
+Dit is een standalone Sexcoin Wallet voor uw Android apparaat. U kan direct Sexcoins versturen tussen telefoons door simpelweg de QR-code te scannen die de app weergeeft of via NFC (Near Field Communication).
 
 FUNCTIES:
 
-• Weergeven van het wallet saldo in Litecoin en verschillende andere valuta.
-• Verzenden en ontvangen van Litecoin via NFC, QR-codes of Litecoin URLs.
-• Adresboek voor veelgebruikte Litecoin adressen.
+• Weergeven van het wallet saldo in Sexcoin en verschillende andere valuta.
+• Verzenden en ontvangen van Sexcoin via NFC, QR-codes of Sexcoin URLs.
+• Adresboek voor veelgebruikte Sexcoin adressen.
 • Transacties ingeven tijdens het offline zijn, deze zullen worden uitgevoerd wanneer u online komt.
-• Systeem melding over Litecoin connectiviteit en ontvangen litecoins.
-• Widget voor Litecoin saldo.
+• Systeem melding over Sexcoin connectiviteit en ontvangen sexcoins.
+• Widget voor Sexcoin saldo.
 
-Voor meer informatie over Litecoin kunt u terecht op
-http://litecoin.org
+Voor meer informatie over Sexcoin kunt u terecht op
+http://sexcoin.net
 
-Als u een bijdrage wil leveren aan Litecoin Wallet, het project is te vinden op 
-https://github.com/Litecoin-Java/litecoin-wallet
+Als u een bijdrage wil leveren aan Sexcoin Wallet, het project is te vinden op 
+https://github.com/lavajumper/sexcoin-wallet
 
 Licentie: GPLv3
 Gebruik op eigen risico!

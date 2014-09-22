@@ -1,21 +1,21 @@
-Litecoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Litecoin Wallet je prvá mobilná Litecoin aplikácia a preukázateľne aj najbezpečnejšia.
+Sexcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Sexcoin Wallet je prvá mobilná Sexcoin aplikácia a preukázateľne aj najbezpečnejšia.
 
 FUNKCIE:
 
 • Nie je potrebná žiadna registrácia ani žiadny účet.
-• Zobrazenie zostatku Litecoinov v LTC alebo mLTC.
-• Prepočet hodnoty Litecoinov do viacerých cudzích mien.
-• Posielanie a prijímanie Litecoinov pomocou NFC, QR kódov alebo Litecoin adries.
-• Adresár pre často používané Litecoin adresy.
+• Zobrazenie zostatku Sexcoinov v SXC alebo mSXC.
+• Prepočet hodnoty Sexcoinov do viacerých cudzích mien.
+• Posielanie a prijímanie Sexcoinov pomocou NFC, QR kódov alebo Sexcoin adries.
+• Adresár pre často používané Sexcoin adresy.
 • V offline režime je platba možná aj cez Bluetooth.
-• Notifikácie v stavovej lište pri prijatí Litecoinov.
+• Notifikácie v stavovej lište pri prijatí Sexcoinov.
 • Widget s celkovým zostatkom.
 
-Viac informácií o Litecoine
-http://litecoin.org
+Viac informácií o Sexcoine
+http://sexcoin.net
 
-Ak chcete prispieť do projektu Litecoin Wallet nájdete ho na adrese
-https://github.com/Litecoin-Java/litecoin-wallet
+Ak chcete prispieť do projektu Sexcoin Wallet nájdete ho na adrese
+https://github.com/lavajumper/sexcoin-wallet
 
 Licencia: GPLv3
 Použitie len na vlastné riziko!

@@ -1,22 +1,45 @@
-Have your Litecoins always with you, in your pocket! You pay by quickly scanning a QR-code. As a merchant, you receive payments reliably and instantly. Litecoin Wallet is the first mobile Litecoin app, and arguably also the most secure!
+Have your Sexcoins always with you, in your pocket! You pay by quickly scanning a QR-code. As a merchant, you receive payments reliably and instantly. Sexcoin Wallet is the first mobile Sexcoin app, and arguably also the most secure!
 
 FEATURES:
 
 • No registration, web service or cloud needed! This wallet is de-centralized and peer to peer.
-• Display of Litecoin amount in LTC and mLTC.
+• Display of Sexcoin amount in SXC and mSXC.
 • Conversion to and from national currencies.
-• Sending and receiving of Litecoin via NFC, QR-codes or Litecoin URLs.
-• Address book for regularly used Litecoin addresses.
+• Sending and receiving of Sexcoin via NFC, QR-codes or Sexcoin URLs.
+• Address book for regularly used Sexcoin addresses.
 • When you're offline, you can still pay via Bluetooth.
 • System notification for received coins.
-• App widget for Litecoin balance.
+• App widget for Sexcoin balance.
 
-You can find more about Litecoin at
-http://litecoin.org
+You can find more about Sexcoin at
+http://sexcoin.net
 
-If you want to contribute to Litecoin Wallet, the project is located at
-https://github.com/Litecoin-Java/litecoin-wallet
+If you want to contribute to Sexcoin Wallet, the project is located at
+https://github.com/lavajumper/sexcoin-wallet
 
 License: GPLv3
 Use at your own risk!
 http://www.gnu.org/licenses/gpl-3.0.en.html
+
+Export compliance information:
+The Sexcoin Project makes NO WARRANTY or representation that the following
+export information is accurate, current or complete. It is your obligation as
+the exporter to comply with the current applicable requirements of United
+States export rules and regulations. Any use of such information by you is
+without recourse to the Sexcoin Project and is at your own risk. The Sexcoin
+Project is in no way responsible for any damages, whether direct,
+consequential, incidental, or otherwise, suffered by you as a result of using
+or relying upon such information for any purpose.
+Sexcoin Wallet contains Bouncy Castle bytecode, and is therefore classified as
+ECCN 5D002. It is exported by the Sexcoin Project under the TSU exception in
+EAR 740.13(e), which applies to software containing or designed for use with
+encryption software that is publicly available as open source. Exception TSU
+further provides that "Posting encryption source code and corresponding object
+code on the Internet (e.g., FTP or World Wide Web site) where it may be
+downloaded by anyone neither establishes "knowledge" of a prohibited export or
+reexport for purposes of this paragraph, nor triggers any "red flags"
+necessitating the affirmative duty to inquire[...] " Note that exporters other
+than the Sexcoin Project within the US may or may not be eligible for
+exception TSU, and it is each specific exporter's responsibility to understand
+and comply with all export regulations applicable within their jurisdiction.
+Export notification published here: https://github.com/lavajumper/sexcoin-wallet/Export-Notice

@@ -1,21 +1,21 @@
-Tartsd a zsebedben Litecoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Litecoin Tárca az első Litecoin app és kétségkívül a legbiztonságosabb is!
+Tartsd a zsebedben Sexcoinjaidat! Egyszerűen, akár QR-kód leolvasásával is fizethetsz. Ha pedig termékeket, vagy szolgáltatást értékesítesz megbízható módon és gyorsan juthatsz a bevételeidhez. A Sexcoin Tárca az első Sexcoin app és kétségkívül a legbiztonságosabb is!
 
 ELŐNYÖK:
 
 • Nincs regisztráció és nem szükséges semmiféle háttéralkalmazás futtatása (web, vagy cloud)! Decentralizált és közvetlen (P2P).
-• A Litecoinjaid mennyiségét LTC és mLTC formában is láthatod.
+• A Sexcoinjaid mennyiségét SXC és mSXC formában is láthatod.
 • Átváltás a saját valutádra, oda-vissza.
-• Litecoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
-• Címtár a rendszeresen használt Litecoin címek számára.
+• Sexcoin küldése és fogadása NFC, QR-kód vagy közvetlen URL segítségével.
+• Címtár a rendszeresen használt Sexcoin címek számára.
 • Offline állapotban is fizethetsz - Bluetooth segítségével.
-• Rendszerüzenet Litecoin érkezésekor.
-• Widget a Litecoin egyenlegről.
+• Rendszerüzenet Sexcoin érkezésekor.
+• Widget a Sexcoin egyenlegről.
 
-Bővebben a Litecoin-ról:
-http://litecoin.org
+Bővebben a Sexcoin-ról:
+http://sexcoin.net
 
-Ha hozzájárulnál a Litecoin Wallet projekthez:
-https://github.com/Litecoin-Java/litecoin-wallet
+Ha hozzájárulnál a Sexcoin Wallet projekthez:
+https://github.com/lavajumper/sexcoin-wallet
 
 Licensz: GPLv3
 Csak saját felelősségre használható!

@@ -1,21 +1,21 @@
-Tenha os seus Litecoins sempre com você, no seu bolso! Efetue pagamentos rapidamente apenas escaneando um código QR​​. Como comerciante, você pode receber pagamentos de forma confiável e instantaneamente. O Litecoin Wallet é o primeiro aplicativo Litecoin móvel, e, possivelmente, o mais seguro!
+Tenha os seus Sexcoins sempre com você, no seu bolso! Efetue pagamentos rapidamente apenas escaneando um código QR​​. Como comerciante, você pode receber pagamentos de forma confiável e instantaneamente. O Sexcoin Wallet é o primeiro aplicativo Sexcoin móvel, e, possivelmente, o mais seguro!
 
 CARACTERÍSTICAS:
 
 • Sem necessidade de cadastro, serviço web ou hospedagem! Esta carteira é descentralizada e "peer to peer".
-• Exibe a quantidade de Litecoins em LTC e mLTC.
+• Exibe a quantidade de Sexcoins em SXC e mSXC.
 • Conversão para moedas nacionais.
-• Envio e recebimento de Litecoins via NFC, códigos QR ou endereços Litecoin.
+• Envio e recebimento de Sexcoins via NFC, códigos QR ou endereços Sexcoin.
 • Catálogo para guardar os endereços mais utilizados.
 • Quando você estiver off-line, você ainda pode pagar via Bluetooth.
 • Notificações do sistema para moedas recebidas.
-• Widget para saldo de Litecoins.
+• Widget para saldo de Sexcoins.
 
-Mais informações sobre Litecoin em
-http://litecoin.org
+Mais informações sobre Sexcoin em
+http://sexcoin.net
 
-Se você deseja contribuir com o Litecoin Wallet, o projeto encontra-se em
-https://github.com/Litecoin-Java/litecoin-wallet
+Se você deseja contribuir com o Sexcoin Wallet, o projeto encontra-se em
+https://github.com/lavajumper/sexcoin-wallet
 
 Licença: GPLv3
 Use por sua conta e risco!

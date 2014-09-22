@@ -1,19 +1,19 @@
-Detta är en fristående Litecoin plånbok för Android. Du kan skicka Litecoins mellan telefoner genom att scanna den QR kod som visas på skärmen. Eller använda NFC (Near Field Communication).
+Detta är en fristående Sexcoin plånbok för Android. Du kan skicka Sexcoins mellan telefoner genom att scanna den QR kod som visas på skärmen. Eller använda NFC (Near Field Communication).
 
 FUNKTIONER:
 
-• Visa plånbokens värde i Litecoins och andra valutor.
-• Skicka och ta emot Litecoins via NFC, QR-koder eller en Litecoin URL.
-• Adressbok för de Litecoin adresser man använder ofta.
+• Visa plånbokens värde i Sexcoins och andra valutor.
+• Skicka och ta emot Sexcoins via NFC, QR-koder eller en Sexcoin URL.
+• Adressbok för de Sexcoin adresser man använder ofta.
 • Påbörja transaktioner medan du är offline, de utförs när du kommer online.
-• Systemnotifikationer när Litecoins skickats till dig, och när plånboken kommunicerar med nätverket.
+• Systemnotifikationer när Sexcoins skickats till dig, och när plånboken kommunicerar med nätverket.
 • App widget som visar plånbokens värde.
 
-Du kan lära dig mer om Litecoin genom att besöka
-http://litecoin.org
+Du kan lära dig mer om Sexcoin genom att besöka
+http://sexcoin.net
 
-Om du vill hjälpa till med utvecklingen av Litecoin Wallet så kan du hitta projektet här
-https://github.com/Litecoin-Java/litecoin-wallet
+Om du vill hjälpa till med utvecklingen av Sexcoin Wallet så kan du hitta projektet här
+https://github.com/lavajumper/sexcoin-wallet
 
 Licens: GPLv3
 Använd på egen risk!

@@ -1,20 +1,20 @@
-Dengan aplikasi ini Anda selalu mempunyai Litecoin dengan Anda, dalam saku Anda! Anda dapat mengirim pembayaran hanya dengan memindai kode-QR atau mendekatkan dua ponsel bersama (NFC). Litecoin Wallet dirancang untuk mudah digunakan dan diandalkan, sementara juga menjadi lebih aman dan cepat.
+Dengan aplikasi ini Anda selalu mempunyai Sexcoin dengan Anda, dalam saku Anda! Anda dapat mengirim pembayaran hanya dengan memindai kode-QR atau mendekatkan dua ponsel bersama (NFC). Sexcoin Wallet dirancang untuk mudah digunakan dan diandalkan, sementara juga menjadi lebih aman dan cepat.
 
 FITUR:
 
 • Tidak diperlukan server awan atau layanan web! Dompet ini benar-benar peer ke peer.
-• Tampilkan saldo dompet dalam Litecoin dan mata uang lainnya.
-• Mengirim dan menerima Litecoin via NFC, kode-QR atau Tautan Litecoin.
-• Buku alamat untuk alamat penggunaan litecoin secara reguler.
+• Tampilkan saldo dompet dalam Sexcoin dan mata uang lainnya.
+• Mengirim dan menerima Sexcoin via NFC, kode-QR atau Tautan Sexcoin.
+• Buku alamat untuk alamat penggunaan sexcoin secara reguler.
 • Masukkan transaksi saat offline, akan dilaksanakan ketika online.
-• Notifikasi sistem untuk konektivitas Litecoin dan menerima koin.
-• Widget Apl untuk saldo Litecoin.
+• Notifikasi sistem untuk konektivitas Sexcoin dan menerima koin.
+• Widget Apl untuk saldo Sexcoin.
 
-Anda dapat mengetahui lebih mengenai Litecoin di
-http://litecoin.org
+Anda dapat mengetahui lebih mengenai Sexcoin di
+http://sexcoin.net
 
-Jika Anda ingin berkontribusi kepada Litecoin Wallet, proyeknya berada di
-https://github.com/Litecoin-Java/litecoin-wallet
+Jika Anda ingin berkontribusi kepada Sexcoin Wallet, proyeknya berada di
+https://github.com/lavajumper/sexcoin-wallet
 
 Lisensi: GPLv3
 Gunakan dengan resiko Anda!

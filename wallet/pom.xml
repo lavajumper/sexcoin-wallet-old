@@ -17,8 +17,8 @@
 	<properties>
 		<sign.keystore>c:\\users\\root\\.android\\debug.keystore</sign.keystore>
 		<sign.alias>androiddebugkey</sign.alias>
-		<sign.storepass>android</sign.storepass>
-		<sign.keypass>android</sign.keypass>
+		<sign.storepass>**</sign.storepass>
+		<sign.keypass>**</sign.keypass>
 	</properties>
 	<dependencies>
 

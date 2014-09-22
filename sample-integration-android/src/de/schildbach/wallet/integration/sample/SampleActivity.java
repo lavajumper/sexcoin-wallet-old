@@ -35,7 +35,7 @@ import de.schildbach.wallet.integration.android.BitcoinIntegration;
  */
 public class SampleActivity extends Activity
 {
-	private static final String DONATION_ADDRESS = "LPwViUHsXXKWp65ZxVqag7B3wmbmo4Zfd2"; // prodnet (Litecoin Android 2014 Fund)
+	private static final String DONATION_ADDRESS = "S7NgcaY5qtjsBpNqdJsYbeTjacwuCUhC2Z"; // prodnet (Litecoin Android 2014 Fund)
 	// private static final String DONATION_ADDRESS = "mwEacn7pYszzxfgcNaVUzYvzL6ypRJzB6A"; // testnet
 	private static final int REQUEST_CODE = 0;
 
