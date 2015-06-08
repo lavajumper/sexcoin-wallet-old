@@ -117,8 +117,9 @@ public final class PeerListFragment extends SherlockListFragment
 
 				final TextView rowIp = (TextView) row.findViewById(R.id.peer_list_row_ip);
 				final InetAddress address = peer.getAddress().getAddr();
-				final String hostname = hostnames.get(address);
-				rowIp.setText(hostname != null ? hostname : address.getHostAddress());
+				//final String hostname = hostnames.get(address);
+				//rowIp.setText(hostname != null ? hostname : address.getHostAddress());
+				rowIp.setText(address.getHostAddress());
 
 				final TextView rowHeight = (TextView) row.findViewById(R.id.peer_list_row_height);
 				final long bestHeight = peer.getBestHeight();

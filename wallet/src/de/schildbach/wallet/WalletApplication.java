@@ -37,6 +37,7 @@ import javax.annotation.Nonnull;
 import org.bitcoinj.wallet.Protos;
 import org.litecoin.LitecoinWallet;
 import org.sexcoin.SexcoinWallet;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -289,7 +290,7 @@ public class WalletApplication extends Application
                     NetworkParameters params = NetworkParameters.fromID(paramsID);
                     if (params == null)
                         throw new UnreadableWalletException("Unknown network parameters ID " + paramsID);
-                    //wallet = new LitecoinWallet(params);
+
                     wallet = new SexcoinWallet(params);
                     ser.readWallet(walletProto, wallet);
                 } catch (IOException e) {
@@ -341,7 +342,6 @@ public class WalletApplication extends Application
 		}
 		else
 		{
-			//wallet = new LitecoinWallet(Constants.NETWORK_PARAMETERS);
 			wallet = new SexcoinWallet(Constants.NETWORK_PARAMETERS);
 
 			log.info("new wallet created");
@@ -379,7 +379,6 @@ public class WalletApplication extends Application
 		final List<ECKey> keys = WalletUtils.readKeys(in);
 		in.close();
 
-		//final Wallet wallet = new LitecoinWallet(Constants.NETWORK_PARAMETERS);
 		final Wallet wallet = new SexcoinWallet(Constants.NETWORK_PARAMETERS);
 		for (final ECKey key : keys)
 			wallet.addKey(key);
@@ -540,7 +539,7 @@ public class WalletApplication extends Application
 		if (memoryClass <= Constants.MEMORY_CLASS_LOWEND)
 			return 4;
 		else
-			return 6;
+			return 8; // changed from 6 to 8 -JSC
 	}
 
 	public static void scheduleStartBlockchainService(@Nonnull final Context context)

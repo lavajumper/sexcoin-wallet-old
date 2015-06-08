@@ -6,7 +6,7 @@
 			android:key="about_version"
 			android:title="Version" />
 		<Preference
-			android:summary="© 2011-2014, Andreas Schildbach\n© 2014 Litecoin Dev Team\n© 2014 Lavajumper"
+			android:summary="© 2011-2014, Andreas Schildbach\n© 2014 Litecoin Dev Team\n© 2014-2015 Lavajumper"
 			android:title="Copyright" />
 		<Preference
 			android:key="about_license"
@@ -19,17 +19,9 @@
 			android:summary="@string/about_market_app_summary"
 			android:title="@string/about_market_app_title" />
 		<Preference
-			android:key="about_community_googleplus"
-			android:summary="@string/about_community_googleplus_summary"
-			android:title="@string/about_community_googleplus_title" />
-		<Preference
 			android:key="about_author_twitter"
-			android:summary="\@LitecoinProject"
+			android:summary="\@Lavajumper"
 			android:title="@string/about_author_twitter_title" />
-		<Preference
-			android:key="about_author_googleplus"
-			android:summary="+LitecoinProject"
-			android:title="@string/about_author_googleplus_title" />
 		<Preference android:key="about_credits_bitcoinj" />
 		<Preference
 			android:key="about_credits_zxing"

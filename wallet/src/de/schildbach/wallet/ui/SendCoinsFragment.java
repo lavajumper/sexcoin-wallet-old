@@ -215,19 +215,17 @@ public final class SendCoinsFragment extends SherlockFragment
 		@Override
 		public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
 		{
-			switch (item.getItemId())
-			{
-				case R.id.send_coins_address_context_edit_address:
-					handleEditAddress();
+			int itemid = item.getItemId();
+			if(itemid == R.id.send_coins_address_context_edit_address){
+				handleEditAddress();
 
-					mode.finish();
-					return true;
+				mode.finish();
+				return true;
+			}else if(itemid == R.id.send_coins_address_context_clear){
+				handleClear();
 
-				case R.id.send_coins_address_context_clear:
-					handleClear();
-
-					mode.finish();
-					return true;
+				mode.finish();
+				return true;
 			}
 
 			return false;
@@ -720,15 +718,16 @@ public final class SendCoinsFragment extends SherlockFragment
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item)
 	{
-		switch (item.getItemId())
-		{
-			case R.id.send_coins_options_scan:
-				handleScan();
-				return true;
+		
+		int itemid = item.getItemId();
+		if(itemid == R.id.send_coins_options_scan){
+			
+			handleScan();
+			return true;			
+		}else if(itemid == R.id.send_coins_options_empty){
 
-			case R.id.send_coins_options_empty:
-				handleEmpty();
-				return true;
+			handleEmpty();
+			return true;
 		}
 
 		return super.onOptionsItemSelected(item);

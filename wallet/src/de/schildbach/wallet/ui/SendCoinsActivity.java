@@ -77,15 +77,13 @@ public final class SendCoinsActivity extends AbstractBindServiceActivity
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item)
 	{
-		switch (item.getItemId())
-		{
-			case android.R.id.home:
-				finish();
-				return true;
-
-			case R.id.send_coins_options_help:
-				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_send_coins);
-				return true;
+		int itemid = item.getItemId();
+		if(itemid == android.R.id.home){
+			finish();
+			return true;
+		}else if(itemid == R.id.send_coins_options_help){
+			HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_send_coins);
+			return true;
 		}
 
 		return super.onOptionsItemSelected(item);

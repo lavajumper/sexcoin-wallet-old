@@ -175,9 +175,7 @@ public final class BlockListFragment extends SherlockListFragment
 			@Override
 			public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
 			{
-				switch (item.getItemId())
-				{
-					case R.id.blocks_context_browse:
+				if(item.getItemId() == R.id.blocks_context_browse){
 						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "block/"
 								+ storedBlock.getHeader().getHashAsString())));
 

@@ -3,11 +3,11 @@
 	xmlns:tools="http://schemas.android.com/tools"
 	package="de.schildbach.wallet_sxc"
 	android:installLocation="internalOnly"
-	android:versionCode="50"
-	android:versionName="0.10.2" >
+	android:versionCode="56"
+	android:versionName="0.10.6" >
 
 	<uses-sdk
-		android:minSdkVersion="10"
+		android:minSdkVersion="11"
 		android:targetSdkVersion="16"
 		tools:ignore="OldTargetApi" />
 
@@ -20,6 +20,10 @@
 	<uses-permission android:name="android.permission.WAKE_LOCK" />
 	<uses-permission android:name="android.permission.BROADCAST_STICKY" />
 	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+	<uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
 
 	<uses-feature
 		android:name="android.hardware.touchscreen"

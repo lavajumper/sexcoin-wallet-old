@@ -40,7 +40,7 @@ public class Constants
 	public static final boolean TEST = R.class.getPackage().getName().contains("_test");
 
 	public static final NetworkParameters NETWORK_PARAMETERS = SexcoinParams.get();
-	private static final String FILENAME_NETWORK_SUFFIX = "sexcoin";
+	private static final String FILENAME_NETWORK_SUFFIX = "sexcoins";
 
 	public static final String WALLET_FILENAME = "wallet" + FILENAME_NETWORK_SUFFIX;
 
@@ -51,7 +51,7 @@ public class Constants
 	public static final File EXTERNAL_WALLET_BACKUP_DIR = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 	public static final String EXTERNAL_WALLET_KEY_BACKUP = "Sexcoin-wallet-keys";
 
-	public static final String BLOCKCHAIN_FILENAME = "blockchain" + FILENAME_NETWORK_SUFFIX;
+	public static final String BLOCKCHAIN_FILENAME = "blockchains" + FILENAME_NETWORK_SUFFIX;
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
@@ -89,7 +89,7 @@ public class Constants
 	public static final int LOCAL_PRECISION = 4;
 
 	public static final String DONATION_ADDRESS = "S7NgcaY5qtjsBpNqdJsYbeTjacwuCUhC2Z";
-	public static final String REPORT_EMAIL = "lavajumper@lavajumper.com";
+	public static final String REPORT_EMAIL = "android_support@lavajumper.com";
 	public static final String REPORT_SUBJECT_ISSUE = "Reported issue";
 	public static final String REPORT_SUBJECT_CRASH = "Crash report";
 
@@ -99,9 +99,9 @@ public class Constants
 	public static final String BINARY_URL = "https://github.com/lavajumper/sexcoin-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/lavajumper/bitcoinj-scrypt";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/LitecoinProject";
-	public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/+LitecoinOrg";
-	public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/+LitecoinOrg";
+	public static final String AUTHOR_TWITTER_URL = "https://twitter.com/Lavajumper";
+	//public static final String AUTHOR_GOOGLEPLUS_URL = "https://plus.google.com/+LitecoinOrg";
+	//public static final String COMMUNITY_GOOGLEPLUS_URL = "https://plus.google.com/+LitecoinOrg";
     public static final String ANDROID_MARKET_APP_URL = "market://details?id=%s";
     public static final String BB_MARKET_APP_URL = "http://appworld.blackberry.com/webstore/content/46329888";
     public static final String ANDROID_WEBMARKET_APP_URL = "https://play.google.com/store/apps/details?id=%s";

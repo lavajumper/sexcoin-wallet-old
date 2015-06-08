@@ -27,8 +27,9 @@ import java.util.zip.GZIPOutputStream;
 
 import javax.annotation.Nonnull;
 
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
@@ -47,7 +48,7 @@ public class Qr
 {
 	private final static QRCodeWriter QR_CODE_WRITER = new QRCodeWriter();
 
-	private static final Logger log = LoggerFactory.getLogger(Qr.class);
+	private static final org.slf4j.Logger log = LoggerFactory.getLogger(Qr.class);
 
 	public static Bitmap bitmap(@Nonnull final String content, final int size)
 	{

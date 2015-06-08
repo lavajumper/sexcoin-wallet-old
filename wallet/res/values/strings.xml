@@ -37,7 +37,7 @@
     <string name="wallet_transactions_context_browse">Explorer</string>
     <string name="wallet_transactions_context_show_transaction_title">Transaction details</string>
 	<string name="wallet_options_backup">Back up Keys</string>
-	<string name="wallet_options_disconnect">Disconnect</string>
+	<string name="wallet_options_disconnect">Disconnect / Close</string>
 	<string name="wallet_options_safety">Safety notes</string>
 	<string name="wallet_options_donate">Tip / Donate</string>
 	<string name="wallet_donate_address_label">Donation for Sexcoin Wallet</string>
@@ -180,6 +180,8 @@
 	<string name="preferences_trusted_peer_only_summary">Prevents connecting to any peers besides the trusted peer.</string>
 	<string name="preferences_data_usage_title">Data usage</string>
 	<string name="preferences_data_usage_summary">Show options to restrict data usage on mobile networks.</string>
+	<string name="preferences_new_checkpoint_file_title">Download Latest Checkpoint File</string>
+    <string name="preferences_new_checkpoint_file_summary">Download the latest version of the checkpoint file</string>
 	<string name="preferences_report_issue_title">Report Issue</string>
 	<string name="preferences_report_issue_summary">Collect information about your issue and email your report to the developers.</string>
 	<string name="preferences_initiate_reset_title">Reset Blockchain</string>
@@ -197,6 +199,7 @@
 	<string name="report_issue_dialog_collect_application_log">Append application log</string>
 	<string name="report_issue_dialog_collect_wallet_dump">Append wallet dump</string>
 	<string name="report_issue_dialog_mail_intent_chooser">Send report using…</string>
+
 	<string name="about_title">About</string>
 	<string name="about_license_title">License</string>
 	<string name="about_credits_litecoinj_title">This app is using sexcoinj %s</string>
@@ -250,5 +253,6 @@
     <string name="edit_transaction_note_dialog_txid_label">TX</string>
     <string name="edit_transaction_note_dialog_note_label">Note</string>
     <string name="button_edit_note">Edit Note</string>
+    
 
 </resources>

@@ -156,11 +156,9 @@ public final class ExchangeRatesFragment extends SherlockListFragment implements
 			@Override
 			public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
 			{
-				switch (item.getItemId())
-				{
-					case R.id.exchange_rates_context_set_as_default:
+				
+				if(item.getItemId() == R.id.exchange_rates_context_set_as_default){
 						handleSetAsDefault(exchangeRate.currencyCode);
-
 						mode.finish();
 						return true;
 				}

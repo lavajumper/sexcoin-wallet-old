@@ -100,6 +100,7 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 	private static final int DIALOG_IMPORT_KEYS = 0;
 	private static final int DIALOG_EXPORT_KEYS = 1;
 	private static final int DIALOG_ALERT_OLD_SDK = 2;
+	private static final int DIALOG_IMPORT_MANUAL_KEYS = 3;
 
 	private WalletApplication application;
 	private Wallet wallet;
@@ -281,63 +282,50 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item)
 	{
-		switch (item.getItemId())
-		{
-			case R.id.wallet_options_request:
-				handleRequestCoins();
-				return true;
+		int itemid = item.getItemId();
+		if(itemid == R.id.wallet_options_request){
+			handleRequestCoins();
+			return true;
 
-			case R.id.wallet_options_send:
-				handleSendCoins();
-				return true;
-
-			case R.id.wallet_options_scan:
-				handleScan();
-				return true;
-
-			case R.id.wallet_options_address_book:
-				AddressBookActivity.start(this, true);
-				return true;
-
-			case R.id.wallet_options_exchange_rates:
-				startActivity(new Intent(this, ExchangeRatesActivity.class));
-				return true;
-
-			case R.id.wallet_options_network_monitor:
-				startActivity(new Intent(this, NetworkMonitorActivity.class));
-				return true;
-
-			case R.id.wallet_options_import_keys:
-				showDialog(DIALOG_IMPORT_KEYS);
-				return true;
-
-			case R.id.wallet_options_export_keys:
-				handleExportKeys();
-				return true;
-
-			case R.id.wallet_options_disconnect:
-				handleDisconnect();
-				return true;
-
-			case R.id.wallet_options_preferences:
-				startActivity(new Intent(this, PreferencesActivity.class));
-				return true;
-
-			case R.id.wallet_options_about:
-				startActivity(new Intent(this, AboutActivity.class));
-				return true;
-
-			case R.id.wallet_options_safety:
-				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_safety);
-				return true;
-
-			case R.id.wallet_options_donate:
-				SendCoinsActivity.start(this, Constants.DONATION_ADDRESS, getString(R.string.wallet_donate_address_label), null, null);
-				return true;
-
-			case R.id.wallet_options_help:
-				HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_wallet);
-				return true;
+		}else if(itemid ==  R.id.wallet_options_send){
+			handleSendCoins();
+			return true;
+		}else if(itemid == R.id.wallet_options_scan){
+			handleScan();
+			return true;
+		}else if(itemid == R.id.wallet_options_address_book ){
+			AddressBookActivity.start(this, true);
+			return true;
+		}else if(itemid == R.id.wallet_options_exchange_rates ){
+			startActivity(new Intent(this, ExchangeRatesActivity.class));
+			return true;
+		}else if(itemid == R.id.wallet_options_network_monitor){
+			startActivity(new Intent(this, NetworkMonitorActivity.class));
+			return true;
+		}else if(itemid == R.id.wallet_options_import_keys){
+			showDialog(DIALOG_IMPORT_KEYS);
+			return true;
+		}else if(itemid == R.id.wallet_options_export_keys ){
+			handleExportKeys();
+			return true;
+		}else if(itemid == R.id.wallet_options_disconnect){
+			handleDisconnect();
+			return true;
+		}else if(itemid == R.id.wallet_options_preferences){
+			startActivity(new Intent(this, PreferencesActivity.class));
+			return true;
+		}else if(itemid == R.id.wallet_options_about){
+			startActivity(new Intent(this, AboutActivity.class));
+			return true;
+		}else if(itemid == R.id.wallet_options_safety){
+			HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_safety);
+			return true;
+		}else if(itemid == R.id.wallet_options_donate){
+			SendCoinsActivity.start(this, Constants.DONATION_ADDRESS, getString(R.string.wallet_donate_address_label), null, null);
+			return true;
+		}else if(itemid == R.id.wallet_options_help){
+			HelpDialogFragment.page(getSupportFragmentManager(), R.string.help_wallet);
+			return true;
 		}
 
 		return super.onOptionsItemSelected(item);

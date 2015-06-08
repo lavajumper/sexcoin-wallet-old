@@ -135,11 +135,10 @@ public final class WalletAddressesFragment extends SherlockListFragment
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item)
 	{
-		switch (item.getItemId())
-		{
-			case R.id.wallet_addresses_options_add:
-				handleAddAddress();
-				return true;
+		int itemid = item.getItemId();
+		if(itemid == R.id.wallet_addresses_options_add){
+			handleAddAddress();
+			return true;
 		}
 
 		return super.onOptionsItemSelected(item);
@@ -189,40 +188,36 @@ public final class WalletAddressesFragment extends SherlockListFragment
 			@Override
 			public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
 			{
-				switch (item.getItemId())
-				{
-					case R.id.wallet_addresses_context_edit:
-						handleEdit(getAddress(position));
+				
+				int itemid = item.getItemId();
+				if(itemid == R.id.wallet_addresses_context_edit){
+					handleEdit(getAddress(position));
 
-						mode.finish();
-						return true;
+					mode.finish();
+					return true;
+				}else if(itemid == R.id.wallet_addresses_context_show_qr){
+					handleShowQr(getAddress(position));
 
-					case R.id.wallet_addresses_context_show_qr:
-						handleShowQr(getAddress(position));
+					mode.finish();
+					return true;
+				}else if(itemid == R.id.wallet_addresses_context_copy_to_clipboard){
+					handleCopyToClipboard(getAddress(position));
 
-						mode.finish();
-						return true;
+					mode.finish();
+					return true;
+				}else if(itemid == R.id.wallet_addresses_context_default){
+					handleDefault(getAddress(position));
 
-					case R.id.wallet_addresses_context_copy_to_clipboard:
-						handleCopyToClipboard(getAddress(position));
+					mode.finish();
+					return true;
+				}else if(itemid == R.id.wallet_addresses_context_browse){
+					startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "address/"
+							+ getAddress(position).toString())));
 
-						mode.finish();
-						return true;
-
-					case R.id.wallet_addresses_context_default:
-						handleDefault(getAddress(position));
-
-						mode.finish();
-						return true;
-
-					case R.id.wallet_addresses_context_browse:
-						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "address/"
-								+ getAddress(position).toString())));
-
-						mode.finish();
-						return true;
+					mode.finish();
+					return true;
 				}
-
+				
 				return false;
 			}
 

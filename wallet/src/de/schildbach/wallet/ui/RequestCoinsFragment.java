@@ -349,17 +349,15 @@ public final class RequestCoinsFragment extends SherlockFragment
 	@Override
 	public boolean onOptionsItemSelected(final MenuItem item)
 	{
-		switch (item.getItemId())
-		{
-			case R.id.request_coins_options_copy:
-				handleCopy();
-				return true;
-
-			case R.id.request_coins_options_local_app:
-				handleLocalApp();
-				return true;
+		int itemid = item.getItemId();
+		if(itemid == R.id.request_coins_options_copy){
+			handleCopy();
+			return true;
+		}else if(itemid == R.id.request_coins_options_local_app){
+			handleLocalApp();
+			return true;
 		}
-
+	
 		return super.onOptionsItemSelected(item);
 	}
 

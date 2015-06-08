@@ -40,8 +40,10 @@ import com.google.bitcoin.script.Script;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 //import org.litecoin.LitcoinPeerDBDiscovery;
-//import org.sexcoin.SexcoinPeerDBDiscovery;
+import org.sexcoin.SexcoinPeerDBDiscovery;
 import org.sexcoin.SexcoinIrcDiscovery;
+import org.sexcoin.SexcoinDnsDiscovery;
+
 
 import android.annotation.SuppressLint;
 import android.app.NotificationManager;
@@ -65,10 +67,11 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.text.format.DateUtils;
 
+
 import com.google.bitcoin.core.AbstractPeerEventListener;
 import com.google.bitcoin.core.Address;
 import com.google.bitcoin.core.Block;
-//import com.google.bitcoin.core.BlockChain;
+import com.google.bitcoin.core.BlockChain;
 import org.sexcoin.SexcoinBlockChain;
 import com.google.bitcoin.core.CheckpointManager;
 import com.google.bitcoin.core.Peer;
@@ -389,7 +392,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
 			if (hasEverything && peerGroup == null)
 			{
-				log.debug("acquiring wakelock");
+				log.info("acquiring wakelock");
 				wakeLock.acquire();
 
 				// consistency check
@@ -418,22 +421,22 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 
 				peerGroup.addPeerDiscovery(new PeerDiscovery()
 				{
-					//private final PeerDiscovery normalPeerDiscovery = new DnsDiscovery(Constants.NETWORK_PARAMETERS);
-					private final PeerDiscovery normalPeerDiscovery = new SexcoinIrcDiscovery("#sexcoin00");
-                    private final PeerDiscovery dnsPeerDiscovery = new DnsDiscovery(Constants.NETWORK_PARAMETERS);
-					//private PeerDiscovery dbPeerDiscovery = null;
+					private final PeerDiscovery normalPeerDiscovery = new SexcoinDnsDiscovery(Constants.NETWORK_PARAMETERS);
+					//private final PeerDiscovery ircPeerDiscovery = new SexcoinIrcDiscovery("#sexcoin00");
+                    //private final PeerDiscovery dnsPeerDiscovery = new SexcoinDnsDiscovery(Constants.NETWORK_PARAMETERS);
+					private PeerDiscovery dbPeerDiscovery = null;
 
 					@Override
 					public InetSocketAddress[] getPeers(final long timeoutValue, final TimeUnit timeoutUnit) throws PeerDiscoveryException
 					{
-						//log.info("in getPeers...");
-//						try {
-//                            dbPeerDiscovery = new SexcoinPeerDBDiscovery(Constants.NETWORK_PARAMETERS,
-//                                    getFileStreamPath("sexcoin.peerdb"), peerGroup);
-//                        } catch(IllegalStateException e) {
-//                            // This can happen in the guts of bitcoinj
-//                            Log.i(TAG, "IllegalStateException in bitcoinj: " + e.getMessage());
-//                        }
+						log.info("in getPeers...");
+						try {
+                            dbPeerDiscovery = new SexcoinPeerDBDiscovery(Constants.NETWORK_PARAMETERS,
+                                    getFileStreamPath("sexcoin.peerdb"), peerGroup);
+                        } catch(IllegalStateException e) {
+                            // This can happen in the guts of bitcoinj
+                            Log.i(TAG, "IllegalStateException in bitcoinj: " + e.getMessage());
+                        }
 						final List<InetSocketAddress> peers = new LinkedList<InetSocketAddress>();
 
 						boolean needsTrimPeersWorkaround = false;
@@ -451,10 +454,12 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 						}
 
 						if (!connectTrustedPeerOnly) {
-							peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
-                            //if(dbPeerDiscovery != null)
-                            //    peers.addAll(Arrays.asList(dbPeerDiscovery.getPeers(1, TimeUnit.SECONDS)));
-							peers.addAll(Arrays.asList(dnsPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
+							//peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(timeoutValue, timeoutUnit)));
+							//peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(5, TimeUnit.SECONDS)));
+                            if(dbPeerDiscovery != null)
+                                peers.addAll(Arrays.asList(dbPeerDiscovery.getPeers(5, TimeUnit.SECONDS)));
+							if(normalPeerDiscovery != null)
+								peers.addAll(Arrays.asList(normalPeerDiscovery.getPeers(5, TimeUnit.SECONDS)));
                         }
 
 						// workaround because PeerGroup will shuffle peers
@@ -462,13 +467,14 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 							while (peers.size() >= maxConnectedPeers)
 								peers.remove(peers.size() - 1);
 
-						//log.info("out getPeers...");
-						return peers.toArray(new InetSocketAddress[0]);
+						log.info("out: getPeers found {}",peers.size());
+						return peers.toArray(new InetSocketAddress[peers.size()]);
 					}
 
 					@Override
 					public void shutdown()
 					{
+						log.info("Shutting down PeerDiscovery...");
 						normalPeerDiscovery.shutdown();
                         //if(dbPeerDiscovery != null)
                         //    dbPeerDiscovery.shutdown();
@@ -476,6 +482,8 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 				});
 
 				// start peergroup
+				log.info("Starting Peergroup...");
+				//CheckpointManager manager = new CheckpointManager(params,peerGroup.get) --- WHERE do we do this!! Lj
 				peerGroup.start();
 				peerGroup.startBlockChainDownload(blockchainDownloadListener);
 			}
@@ -661,6 +669,7 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 				{
 					final InputStream checkpointsInputStream = getAssets().open(Constants.CHECKPOINTS_FILENAME);
 					CheckpointManager.checkpoint(Constants.NETWORK_PARAMETERS, checkpointsInputStream, blockStore, earliestKeyCreationTime);
+					log.info("...Checkpoints file found and defined...");
 				}
 				catch (final IOException x)
 				{
@@ -682,6 +691,14 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 		try
 		{
 			blockChain = new SexcoinBlockChain(Constants.NETWORK_PARAMETERS, wallet, blockStore);
+			final long earliestKeyCreationTime = wallet.getEarliestKeyCreationTime();
+			final InputStream checkpointsInputStream = getAssets().open(Constants.CHECKPOINTS_FILENAME);
+
+			CheckpointManager.checkpoint(Constants.NETWORK_PARAMETERS, checkpointsInputStream, blockStore, earliestKeyCreationTime);
+			log.info("...Checkpoints file found and defined...");
+		}catch(IOException e){
+			e.printStackTrace();
+			log.error("couldn't do something involving the checkpoint manager or Input Stream");
 		}
 		catch (final BlockStoreException x)
 		{

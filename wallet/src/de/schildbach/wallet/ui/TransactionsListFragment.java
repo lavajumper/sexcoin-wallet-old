@@ -284,39 +284,34 @@ public class TransactionsListFragment extends SherlockListFragment implements Lo
 			@Override
 			public boolean onActionItemClicked(final ActionMode mode, final MenuItem item)
 			{
-				switch (item.getItemId())
-				{
-					case R.id.wallet_transactions_context_edit_address:
-						handleEditAddress(tx);
+				int itemid = item.getItemId();
+				if(itemid == R.id.wallet_transactions_context_edit_address){
+					handleEditAddress(tx);
 
-						mode.finish();
-						return true;
+					mode.finish();
+					return true;					
+				}else if(itemid == R.id.wallet_transactions_context_show_qr){
+					handleShowQr();
 
-					case R.id.wallet_transactions_context_show_qr:
-						handleShowQr();
+					mode.finish();
+					return true;	
+				}else if(itemid == R.id.wallet_transactions_context_edit_note){
+                    handleEditNote(tx);
 
-						mode.finish();
-						return true;
+                    mode.finish();
+                    return true;
+				}else if(itemid == R.id.wallet_transactions_context_browse){
+					startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "tx/" + tx.getHashAsString())));
 
-                    case R.id.wallet_transactions_context_edit_note:
-                        handleEditNote(tx);
+					mode.finish();
+					return true;
+				}else if(itemid == R.id.wallet_transactions_context_browse2){
+					 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE2_BASE_URL + "tx/" + tx.getHashAsString())));
 
-                        mode.finish();
-                        return true;
-
-					case R.id.wallet_transactions_context_browse:
-						startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE_BASE_URL + "tx/" + tx.getHashAsString())));
-
-						mode.finish();
-						return true;
-
-                    case R.id.wallet_transactions_context_browse2:
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.EXPLORE2_BASE_URL + "tx/" + tx.getHashAsString())));
-
-                        mode.finish();
-                        return true;
-                    case R.id.wallet_transactions_context_show_transaction:
-                        TransactionActivity.show(activity, tx);
+                     mode.finish();
+                     return true;
+				}else if(itemid == R.id.wallet_transactions_context_show_transaction){
+					TransactionActivity.show(activity, tx);
 				}
 				return false;
 			}

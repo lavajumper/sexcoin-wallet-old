@@ -118,21 +118,25 @@ public final class AboutActivity extends SherlockPreferenceActivity
             }
             finish();
 		}
+		/*
 		else if (KEY_ABOUT_COMMUNITY_GOOGLEPLUS.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.COMMUNITY_GOOGLEPLUS_URL)));
 			finish();
 		}
+		*/
 		else if (KEY_ABOUT_AUTHOR_TWITTER.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.AUTHOR_TWITTER_URL)));
 			finish();
 		}
+		/*
 		else if (KEY_ABOUT_AUTHOR_GOOGLEPLUS.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.AUTHOR_GOOGLEPLUS_URL)));
 			finish();
 		}
+		*/
 		else if (KEY_ABOUT_CREDITS_BITCOINJ.equals(key))
 		{
 			startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(Constants.CREDITS_BITCOINJ_URL)));

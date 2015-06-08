@@ -149,8 +149,11 @@ public class ExchangeRatesProvider extends ContentProvider
 		{
 
 			Map<String, ExchangeRate> newExchangeRates = null;
-            // Attempt to get USD exchange rates from all providers.  Stop after first.
+			Map<String, ExchangeRate> newLtcExchangeRates = null;
+
+			// Attempt to get USD exchange rates from all providers.  Stop after first.
 			newExchangeRates = requestCryptsyExchangeRates(CRYPTSY_BTC_URL, "USD", CRYPTSY_BTC_FIELDS);
+			newLtcExchangeRates = requestCryptsyExchangeRates(CRYPTSY_LTC_URL, "USD", CRYPTSY_LTC_FIELDS);
 			//newExchangeRates = requestExchangeRates(BTCE_URL, "USD", BTCE_FIELDS);
 			if (newExchangeRates == null)
             {
@@ -172,6 +175,7 @@ public class ExchangeRatesProvider extends ContentProvider
                 euroRate = requestExchangeRates(KRAKEN_EURO_URL, "EUR", KRAKEN_FIELDS);
             }
 
+/*
             if (euroRate == null)
             {
                 Log.i(TAG, "Failed to fetch KRAKEN EUR rates");
@@ -183,7 +187,7 @@ public class ExchangeRatesProvider extends ContentProvider
                 else
                     newExchangeRates = euroRate;
             }
-
+*/
             if (newExchangeRates != null)
 			{
                 // Get USD conversion exchange rates from Google/Yahoo
@@ -206,6 +210,7 @@ public class ExchangeRatesProvider extends ContentProvider
                 }
 
 				exchangeRates = newExchangeRates;
+				exchangeRates.putAll(newLtcExchangeRates);
 				lastUpdated = now;
 			}
 		}
@@ -382,7 +387,7 @@ public class ExchangeRatesProvider extends ContentProvider
 		return null;
 	}
 
-	
+	// Cryptsy uses their own json schema
 	private static Map<String, ExchangeRate> requestCryptsyExchangeRates(final URL url, final String currencyCode, final String... fields)
 	{
 		HttpURLConnection connection = null;
@@ -404,13 +409,13 @@ public class ExchangeRatesProvider extends ContentProvider
 				reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 128), Constants.UTF_8);
 				final StringBuilder content = new StringBuilder();
 				Io.copy(reader, content);
-				String saveContent = content.toString();
-				String newContent = saveContent.replace(":1," , ":\"1\",");
+				String saveContent = content.toString().replace(":1," , ":\"1\",");
+				
 
-				//logBigString("RETURN FROM JSON: " + newContent);
+				//logBigString("RETURN FROM JSON: " + saveContent);
 				final Map<String, ExchangeRate> rates = new TreeMap<String, ExchangeRate>();
 				try{
-					final JSONObject o = new JSONObject(newContent);
+					final JSONObject o = new JSONObject(saveContent);
 					JSONObject data = o.getJSONObject("return").getJSONObject("markets").getJSONObject(fields[0]);
 					String price = data.getString("lasttradeprice");
 					BigInteger rate = GenericUtils.toNanoCoinsRounded(price, 0);
@@ -486,12 +491,11 @@ public class ExchangeRatesProvider extends ContentProvider
 				reader = new InputStreamReader(new BufferedInputStream(connection.getInputStream(), 128), Constants.UTF_8);
 				final StringBuilder content = new StringBuilder();
 				Io.copy(reader, content);
-				String saveContent = content.toString();
-				String newContent = saveContent.replace(":1," , ":\"1\",");
+				String saveContent = content.toString().replace(":1," , ":\"1\",");
 
-				//logBigString("RETURN FROM JSON: " + newContent);
+				//logBigString("RETURN FROM JSON: " + saveContent);
 				try{
-					final JSONObject o = new JSONObject(newContent);
+					final JSONObject o = new JSONObject(saveContent);
 					JSONObject data = o.getJSONObject("return").getJSONObject("markets").getJSONObject("SXC");
 					String price = data.getString("lasttradeprice");
 					final BigInteger rate = GenericUtils.toNanoCoinsRounded(price, 0);
