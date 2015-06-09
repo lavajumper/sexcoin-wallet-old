@@ -35,7 +35,6 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.Nonnull;
 
 import org.bitcoinj.wallet.Protos;
-import org.litecoin.LitecoinWallet;
 import org.sexcoin.SexcoinWallet;
 
 import org.slf4j.Logger;

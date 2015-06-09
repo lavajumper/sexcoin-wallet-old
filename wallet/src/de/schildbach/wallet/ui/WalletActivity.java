@@ -985,4 +985,18 @@ public final class WalletActivity extends AbstractOnDemandServiceActivity
 
 		log.info("invoked archive private keys chooser");
 	}
+	
+	public void popMessage(String title,String message){
+		AlertDialog alertDialog = new AlertDialog.Builder(this).create();
+		alertDialog.setTitle(title);
+		alertDialog.setMessage(message);
+		alertDialog.setButton(DialogInterface.BUTTON_NEUTRAL,"OK", new DialogInterface.OnClickListener() {
+			   public void onClick(DialogInterface dialog, int which) {
+			      //alertDialog.cancel();
+			   }
+			});
+		// Set the Icon for the Dialog
+		//alertDialog.setIcon(R.drawable.icon);
+		alertDialog.show();
+	}
 }
